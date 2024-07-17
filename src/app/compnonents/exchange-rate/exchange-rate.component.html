@@ -1,0 +1,6 @@
+<mat-toolbar class="header" color="primary">
+  <div class="container">
+    <div>USD: {{ usd$ | async | currency }}</div>
+    <div>EUR: {{ eur$ | async | currency : 'EUR'}}</div>
+  </div>
+</mat-toolbar>
